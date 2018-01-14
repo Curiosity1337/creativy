@@ -1,0 +1,100 @@
+.slogan-and-pluses{
+    background-color: rgb( 17, 116, 158 );
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 20px 20px black;
+}
+/* слоган и W на его фоне сзади*/
+.ourSlogan{
+    font-family: 'Gotham', sans-serif;
+    font-weight: medium;
+    font-size: 37.55px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    height: 37.55px;
+}
+.W{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 247px;
+    opacity: 0.3;
+    position: relative;
+    top: -153px;
+    padding: 0;
+    margin: 0;
+}
+/* 4 одинаковых блока с выравниванием по центру*/
+.feature{
+    text-align: center;
+    display: inline-block;
+    padding-right: 70px;
+    margin: 140px auto 50px;
+
+}
+.one {
+    margin-left: 50px;
+}
+
+.feature-blue-circle {
+    width: 134px;
+    height: 134px;
+    background-color: rgba(255, 255, 255, .3);
+    color:white;
+    border-radius: 67px;
+    margin: 0 auto;
+
+}
+
+.feature-mini-caption{
+    color:white;
+    font-family: 'Gotham', sans-serif;
+    font-weight: medium;
+    letter-spacing: 5px;
+    font-size: 22px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.feature-mini-description{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    width: 270px;
+}
+
+.feature>.feature-blue-circle > img {
+    text-align: center;
+    padding-top: 50px;
+}
+.container-with-two {
+    display: inline-block;
+}
+
+/* блоки feature в 2 ряда по центру*/
+
+@media all and (max-width: 1425px) {
+    .three {
+        margin-left: 50px;
+
+    }
+}
+
+@media all and (max-width: 1425px) and (min-width: 1128px) {
+    .container-with-two{
+        display: block;
+    }
+    .one, .three{
+        margin-right: 85px;
+    }
+
+}
+@media all and (max-width: 1690px){
+    .slogan-and-pluses {
+        box-shadow: none;
+    }
+
+}

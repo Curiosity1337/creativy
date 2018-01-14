@@ -1,0 +1,99 @@
+.key-feature {
+    background: url(img/key-feature.png) no-repeat;
+    box-shadow: 0 20px 20px black;
+
+}
+.key-feature-text-area {
+    display: inline-block;
+    width: 50%;
+    padding-top: 225px;
+
+}
+.key-feature-caption{
+    color: white;
+    padding-left: 215px;
+
+}
+.key-feature-description {
+    color: white;
+    padding-left: 215px;
+    font-size: 12pt;
+}
+.key-feature-phone {
+    float: right;
+    width: 50%;
+}
+
+.key-feature-phone > img {
+    max-width: 375px;
+    max-height: 780px;
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+
+}
+
+.key-feature-line {
+    display: inline-block;
+    background-color: #11749e;
+    color: white;
+    margin-left: 215px;
+    margin-top: 70px;
+    font-family: 'Gotham', sans-serif;
+    font-size: 11pt;
+    font-weight: medium;
+    padding: 10px 0 10px 15px;
+    width: 370px;
+}
+
+.middle {
+    margin-top: 25px;
+    width: 400px;
+}
+.long {
+    margin-top: 25px;
+    width: 430px;
+}
+
+/* уменьшение изображения и отступов у текста */
+
+@media all and (max-width: 1590px) and (min-width: 1230px){
+    .key-feature-text-area {
+        padding-top: 180px;
+
+    }
+    .key-feature-caption {
+        padding-left: 115px;
+    }
+    .key-feature-description {
+        padding-left: 115px;
+    }
+    .key-feature-line {
+        margin-left: 115px;
+    }
+
+}
+
+@media all and (max-width: 1230px) {
+    .key-feature-text-area {
+        padding-top: 12%;
+
+    }
+    .key-feature-caption {
+        padding-left: 60px;
+    }
+    .key-feature-description {
+        padding-left: 60px;
+    }
+    .key-feature-line {
+        margin-left: 60px;
+    }
+
+}
+@media all and (max-width: 1690px){
+    .key-feature {
+        box-shadow: none;
+    }
+
+}
+

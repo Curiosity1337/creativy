@@ -1,0 +1,112 @@
+/* контейнер с блогом компании */
+.lets-blog {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 20px 20px black;
+}
+/*заголовок, буква на заднем плане и слоган */
+.lets-blog-caption {
+    color: #222222;
+    font-family: 'Gotham', sans-serif;
+    font-weight: medium;
+    font-size: 37.55px;
+    line-height: 45pt;
+    text-align: center;
+    position: relative;
+    top: -183px;
+    left: -5px;
+    padding: 0;
+    margin: 0;
+}
+.B {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #b9b9b9;
+    font-size: 247px;
+    margin-bottom: 0;
+    opacity: 0.3;
+    padding-top: 40px;
+
+}
+.lets-blog-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 37pt;
+    text-align: center;
+    position: relative;
+    top: -70px;
+}
+/* блоки с блогами, неплавающие, с выравниванием*/
+
+.post-container {
+    display: inline-block;
+    padding-right: 30px;
+    margin-bottom: 80px;
+}
+.lets-blog-post-image {
+    height: 290px;
+    width: 290px;
+    text-align: center;
+
+}
+.lets-blog-post-caption {
+    color: #11749e;
+    font-family: 'Gotham', sans-serif;
+    font-style: medium;
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 45px;
+}
+.lets-blog-post-description {
+    max-width: 270px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    font-size: 15px;
+    line-height: 20pt;
+    box-sizing: border-box;
+}
+.post-one {
+    padding-left: 30px;
+}
+.post-container-with-two {
+    display: inline-block;
+}
+
+
+/* стили доп классов*/
+.first-blog-image{
+    background: url(img/blog-image-1.png) no-repeat;
+}
+
+.second-blog-image{
+    background: url(img/blog-image-2.png) no-repeat;
+    background-size: cover;
+}
+
+.third-blog-image{
+    background: url(img/blog-image-3.png) no-repeat;
+}
+
+.fourth-blog-image{
+    background: url(img/blog-image-1.png) no-repeat;
+}
+
+
+@media all and (max-width: 1690px){
+    .lets-blog {
+        box-shadow: none;
+    }
+
+}
+
+@media all and (max-width: 1330px) {
+    .post-container-with-two {
+        display: block;
+    }
+    .post-three {
+        padding-left: 30px;
+    }
+
+}

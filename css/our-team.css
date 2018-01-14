@@ -1,0 +1,97 @@
+.our-team {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 20px 20px black;
+}
+.T{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #b9b9b9;
+    font-size: 247px;
+    margin-bottom: 0;
+    opacity: 0.3;
+    padding-top: 40px;
+}
+.our-team-caption {
+    color: #222222;
+    font-family: 'Gotham', sans-serif;
+    font-weight: medium;
+    font-size: 37.55px;
+    line-height: 45pt;
+    text-align: center;
+    position: relative;
+    top: -183px;
+    padding: 0;
+    margin: 0;
+}
+
+.our-team-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 37pt;
+    text-align: center;
+    position: relative;
+    top: -70px;
+}
+.our-team-container-with-two {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.our-team-developer {
+    display: inline-block;
+    margin-right: 30px;
+}
+.our-team-developer-image {
+    height: 415px;
+    width: 270px;
+}
+.our-team-developer-info {
+    background-color: white;
+    display: block;
+    margin: 0 25px;
+    position: relative;
+    top: -30pt;
+}
+.our-team-developer-name {
+    font-family: 'Gotham', sans-serif;
+    font-weight: medium;
+    font-size: 15pt;
+    color: #11749e;
+    display: block;
+    text-align: center;
+    padding-top: 10pt;
+}
+
+.our-team-developer-position {
+    font-family: 'Gotham', sans-serif;
+    font-weight: medium;
+    font-size: 10pt;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.snow {
+    background: url("img/john-snow.png") center;
+    background-position-y: 0px;
+}
+.sansa {
+    background: url("img/lady-sansa.png") center;
+}
+.smith {
+    background: url("img/david-smith.png") center;
+}
+.stark {
+    background: url("img/arya-stark.png") center;
+}
+
+@media all and (max-width: 1690px){
+    .our-team {
+        box-shadow: none;
+    }
+
+}

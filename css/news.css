@@ -1,0 +1,108 @@
+/* общие параметры для блоков */
+.news-container{
+    width: 100%;
+    max-width: 1690px;
+    margin: 0 auto;
+    box-shadow: 0 20px 20px black;
+}
+.news-block{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+    min-height: 488px;
+    box-sizing: border-box;
+
+}
+.news-date {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+}
+.news-caption {
+    font-family: 'Gotham', sans-serif;
+    font-weight: medium;
+    margin-bottom: 45px;
+
+    font-size: 27px;
+    display: block;
+}
+
+.news-description {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24pt;
+
+}
+.news-image{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+
+    min-height: 488px;
+
+}
+.news-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* отдельные собственные параметры для блоков */
+.dark{
+    margin: 0;
+    color: white;
+    background-color: #222222;
+    padding-left: 215px;
+    padding-right: 80px;
+}
+.light {
+    margin:0;
+    color:black;
+    background-color: #f3f3f3;
+    padding-right: 215px;
+    padding-left: 80px;
+}
+.right {
+    background: url(img/news-right-img.png) no-repeat;
+    float: right;
+}
+.left {
+    background: url(img/news-left-img.png) no-repeat;
+    float:left;
+}
+
+/* блоки перестают быть плавающими. идут друг за другом сверху вниз. центрируются*/
+@media all and (max-width: 1690px) {
+    .right, .left {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 845px;
+        text-align: center;
+        box-sizing: border-box;
+
+    }
+    .right img, .left img {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .news-block {
+        display: block;
+        margin: 0 auto;
+        width: 845px;
+    }
+    .dark, .light  {
+        padding-right: 215px;
+        padding-left: 100px;
+    }
+}
+@media all and (max-width: 1690px){
+    .news-container {
+        box-shadow: none;
+    }
+
+}
